@@ -2,7 +2,7 @@
  sudo mkdir -p /opt/terraform
  cd /opt/terraform
  sudo wget https://releases.hashicorp.com/terraform/1.3.6/terraform_1.3.6_linux_386.zip
- sudo apt-get install unzip –y
+ sudo apt-get install unzip 
  sudo unzip terraform_1.3.6_linux_386.zip
 sudo mv /opt/terraform/terraform /usr/bin/
 4. TO CHECK VERSION
